@@ -864,3 +864,9 @@ body:after {
     color: #888888; }
     .footer a:hover {
       color: #000; }
+/* ---------- TREYS EDITS --------- */
+      .tic-tac {
+        height: 300px;
+width: 50%;
+
+      }
