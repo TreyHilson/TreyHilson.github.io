@@ -870,3 +870,8 @@ body:after {
 width: 50%;
 
       }
+
+      p {
+        max-width: 50%;
+        font-weight: 200;
+      }
