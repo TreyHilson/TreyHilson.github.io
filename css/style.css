@@ -6,7 +6,8 @@ body {
   line-height: 1.7;
   color: #666666;
   font-weight: 400;
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 ::-moz-selection {
   background: #000;
@@ -97,7 +98,8 @@ body:after {
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em 0;
+}
   @media (min-width: 768px) {
     .site-section {
       padding: 7em 0; } }
@@ -108,7 +110,8 @@ body:after {
   padding-bottom: 20px;
   margin-bottom: 0px;
   position: relative;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+}
   @media (min-width: 768px) {
     .site-section-heading {
       font-size: 3rem; } }
@@ -623,6 +626,8 @@ body:after {
 .position-relative {
   position: relative; }
 
+
+
 .service {
   padding: 30px;
   background: #fff;
@@ -632,6 +637,7 @@ body:after {
   -o-transition: .3s all ease-in-out;
   transition: .3s all ease-in-out;
   top: 0;
+
   position: relative; }
   .service:hover {
     -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.1);
@@ -865,13 +871,32 @@ body:after {
     .footer a:hover {
       color: #000; }
 /* ---------- TREYS EDITS --------- */
-      .tic-tac {
-        height: 300px;
-width: 50%;
+.icon {
+  height: 85px;
+width: 70px;
+padding: 4px;
+}
+.icon:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.0);
+  box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.0);
+  top: -2px;
+}
 
-      }
+.tic-tac {
+  height: 300px;
+  width: 50%;
+}
 
-      p {
-        max-width: 50%;
-        font-weight: 200;
+.icon-row {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+
+}
+
+
+p {
+  max-width: 50%;
+  font-weight: 200;
       }
