@@ -874,7 +874,7 @@ body:after {
 .icon {
   height: 85px;
 width: 70px;
-padding: 4px;
+padding: 8px;
 }
 .icon:hover {
   cursor: pointer;
