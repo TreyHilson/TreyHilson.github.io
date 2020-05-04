@@ -190,6 +190,7 @@ body:after {
       background: rgba(0, 0, 0, 0.7); }
   .bg-image > .container {
     position: relative;
+
     z-index: 1; }
 
 @media (max-width: 991.98px) {
@@ -587,7 +588,8 @@ body:after {
           background: rgba(255, 255, 255, 0.5); } }
   .site-blocks-cover, .site-blocks-cover > .container, .site-blocks-cover > .container > .row {
     min-height: 600px;
-    height: 100vh; }
+    height: 100vh;
+  }
   .site-blocks-cover .text-intro {
     position: relative;
     z-index: 2; }
@@ -884,8 +886,12 @@ padding: 8px;
 }
 
 .tic-tac {
-  height: 300px;
-  width: 50%;
+  height: 360px;
+  width: 530px;;
+  padding: 8px;
+  border-radius: 20px;
+  border-color: black;
+
 }
 
 .icon-row {
@@ -899,4 +905,19 @@ padding: 8px;
 p {
   max-width: 50%;
   font-weight: 200;
-      }
+  }
+
+  .paragraph {
+    float: right;
+    padding: 8px;
+  }
+
+.project1 {
+
+}
+
+#portfolio-section {
+
+
+
+}
