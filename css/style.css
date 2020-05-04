@@ -881,13 +881,13 @@ padding: 8px;
 .icon:hover {
   cursor: pointer;
   -webkit-box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.0);
-  box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.0);
+  box-shadow: 0 8px 50px -5px rgba(0, 0, 0, 0.3);
   top: -2px;
 }
 
 .tic-tac {
-  height: 360px;
-  width: 530px;;
+  height: 376px;
+  width: 540px;;
   padding: 8px;
   border-radius: 20px;
   border-color: black;
