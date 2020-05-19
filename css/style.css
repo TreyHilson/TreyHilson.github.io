@@ -913,6 +913,10 @@ p {
     padding: 8px;
   }
 
-.project1 {
+.me {
+  width: 480px;
+  height: 600px;
+margin: 10px;
+border-radius: 5px;
 
 }
