@@ -911,6 +911,9 @@ p {
   .paragraph {
     float: right;
     padding: 8px;
+overflow: auto;
+display: flex
+
   }
 
 .me {
